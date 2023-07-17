@@ -1,0 +1,21 @@
+name: rapid_http
+version: 1.0.0
+description: A Flutter package for simplified and efficient HTTP communication.
+homepage: https://github.com/Hama835/rapid_http
+repository: https://github.com/Hama835/rapid_http.git
+
+environment:
+  sdk: ">=2.15.0 <4.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.15
+  crypto: ^3.0.1
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0

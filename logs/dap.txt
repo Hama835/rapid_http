@@ -1,0 +1,43 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.69.20230713
+Flutter extension: 3.68.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.80.1
+Platform: mac
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    DAP
+
+Sun Jul 16 2023 [22:05:09 GMT+0300 (Arabian Standard Time)] Log file started
+[10:37:12 PM] [DAP] [Info] Starting debug session 89198d80-2190-4be0-8a6b-b128317f1f69
+[10:37:12 PM] [DAP] [Info] ==> {"command":"initialize","arguments":{"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"dart","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true,"supportsMemoryEvent":true,"supportsStartDebuggingRequest":true},"type":"request","seq":1}
+[10:37:12 PM] [DAP] [Info] <== {"seq":1,"type":"response","request_seq":1,"command":"initialize","success":true,"body":{"supportsRestartRequest":true,"supportsConfigurationDoneRequest":true,"supportsEvaluateForHovers":true,"supportsDelayedStackTraceLoading":true,"supportsConditionalBreakpoints":true,"supportsLogPoints":true,"supportsTerminateRequest":true,"supportsRestartFrame":true,"supportsClipboardContext":true,"exceptionBreakpointFilters":[{"filter":"All","label":"All Exceptions","default":false},{"filter":"Unhandled","label":"Uncaught Exceptions","default":true}]}}
+[10:37:12 PM] [DAP] [Info] ==> {"command":"launch","arguments":{"name":"rapid_http (M2012K11AG)","request":"launch","type":"dart","__configurationTarget":6,"noDebug":true,"dartCodeDebugSessionID":"session-9075a","program":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example/lib/main.dart","cwd":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example","deviceId":"a299af02","deviceName":"M2012K11AG (android-arm64)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"},"sendLogsToClient":false,"sendCustomProgressEvents":true,"additionalProjectPaths":["/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","a299af02","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"/Users/macbookshop/Documents/development/flutter/bin/cache/dart-sdk","vmServiceLogFile":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/logs/observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/logs/dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":true,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"flutterSdkPath":"/Users/macbookshop/Documents/development/flutter","useInspectorNotificationsForWidgetErrors":true,"flutterRunLogFile":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/logs/flutter_run.txt","flutterTestLogFile":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/logs/flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"89198d80-2190-4be0-8a6b-b128317f1f69"},"type":"request","seq":2}
+[10:37:12 PM] [DAP] [Info] <== {"seq":2,"type":"event","event":"dart.progressStart","body":{"progressId":"launch","message":"Launching…"}}
+[10:37:12 PM] [DAP] [Info] <== {"seq":3,"type":"response","request_seq":2,"command":"launch","success":true}
+[10:37:12 PM] [DAP] [Info] <== {"seq":4,"type":"event","event":"dart.log","body":{"message":"Spawning /Users/macbookshop/Documents/development/flutter/bin/flutter with args [\"run\",\"--machine\",\"--start-paused\",\"-d\",\"a299af02\",\"--devtools-server-address\",\"http://127.0.0.1:9100/\",\"--target\",\"lib/main.dart\"]","severity":0,"category":9}}
+[10:37:12 PM] [DAP] [Info] <== {"seq":5,"type":"event","event":"dart.log","body":{"message":"..  in /Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example","severity":0,"category":9}}
+[10:37:12 PM] [DAP] [Info] <== {"seq":6,"type":"event","event":"dart.log","body":{"message":"..  with {\"toolEnv\":{\"FLUTTER_HOST\":\"VSCode\",\"PUB_ENVIRONMENT\":\"vscode.dart-code\"}}","severity":0,"category":9}}
+[10:37:12 PM] [DAP] [Info] <== {"seq":7,"type":"event","event":"dart.log","body":{"message":"    PID: 9991","severity":0,"category":9}}
+[10:37:13 PM] [DAP] [Info] <== {"seq":8,"type":"event","event":"dart.log","body":{"message":"<== [{\"event\":\"daemon.connected\",\"params\":{\"version\":\"0.6.1\",\"pid\":9992}}]\r\n","severity":0,"category":9}}
+[10:37:13 PM] [DAP] [Info] <== {"seq":9,"type":"event","event":"dart.log","body":{"message":"<== [{\"event\":\"app.start\",\"params\":{\"appId\":\"6cacd508-09b4-4628-bee1-4abae87b2939\",\"deviceId\":\"a299af02\",\"directory\":\"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example\",\"supportsRestart\":true,\"launchMode\":\"run\",\"mode\":\"debug\"}}]\r\n","severity":0,"category":9}}
+[10:37:13 PM] [DAP] [Info] <== {"seq":10,"type":"event","event":"dart.log","body":{"message":"<== Launching lib/main.dart on M2012K11AG in debug mode...\r\n","severity":0,"category":9}}
+[10:37:13 PM] [DAP] [Info] <== {"seq":11,"type":"event","event":"output","body":{"category":"console","output":"Launching lib/main.dart on M2012K11AG in debug mode...\n","source":{"name":"lib/main.dart","path":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example/lib/main.dart","sourceReference":0},"line":1,"column":1}}
+[10:37:17 PM] [DAP] [Info] <== {"seq":12,"type":"event","event":"dart.log","body":{"message":"<== [{\"event\":\"app.progress\",\"params\":{\"appId\":\"6cacd508-09b4-4628-bee1-4abae87b2939\",\"id\":\"0\",\"progressId\":null,\"message\":\"Running Gradle task 'assembleDebug'...\",\"finished\":false}}]\r\n","severity":0,"category":9}}
+[10:37:17 PM] [DAP] [Info] <== {"seq":13,"type":"event","event":"dart.progressUpdate","body":{"progressId":"launch","message":"Running Gradle task 'assembleDebug'..."}}
+[10:37:34 PM] [DAP] [Info] ==> {"command":"terminate","arguments":{"restart":false},"type":"request","seq":3}
+[10:37:34 PM] [DAP] [Info] <== {"seq":14,"type":"event","event":"dart.progressStart","body":{"progressId":"terminate","message":"Terminating debug session…"}}
+[10:37:34 PM] [DAP] [Info] <== {"seq":15,"type":"response","request_seq":3,"command":"terminate","success":true}
+[10:37:34 PM] [DAP] [Info] <== {"seq":16,"type":"event","event":"dart.log","body":{"message":"Process /Users/macbookshop/Documents/development/flutter/bin/flutter terminated! 0, null","severity":0,"category":9}}
+[10:37:34 PM] [DAP] [Info] <== {"seq":17,"type":"event","event":"output","body":{"category":"console","output":"Exited\n"}}
+[10:37:34 PM] [DAP] [Info] <== {"seq":18,"type":"event","event":"terminated"}
+[10:37:34 PM] [DAP] [Info] ==> {"command":"disconnect","arguments":{"restart":false},"type":"request","seq":4}
+[10:37:34 PM] [DAP] [Info] <== {"seq":19,"type":"response","request_seq":4,"command":"disconnect","success":true}
+[10:37:34 PM] [DAP] [Info] Stopping debug session 89198d80-2190-4be0-8a6b-b128317f1f69
+[10:37:34 PM] [DAP] [Info] Debug session 89198d80-2190-4be0-8a6b-b128317f1f69 errored: {}
+[10:37:34 PM] [DAP] [Info] Debug session 89198d80-2190-4be0-8a6b-b128317f1f69 exit: code: 0, signal: undefined

@@ -1,0 +1,9 @@
+[10:37:12 PM]: Spawning /Users/macbookshop/Documents/development/flutter/bin/flutter with args ["run","--machine","--start-paused","-d","a299af02","--devtools-server-address","http://127.0.0.1:9100/","--target","lib/main.dart"]
+[10:37:12 PM]: ..  in /Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example
+[10:37:12 PM]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[10:37:12 PM]: PID: 9991
+[10:37:13 PM]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":9992}}]
+[10:37:13 PM]: <== [{"event":"app.start","params":{"appId":"6cacd508-09b4-4628-bee1-4abae87b2939","deviceId":"a299af02","directory":"/Users/macbookshop/Documents/hama/mobile/github/TechnoBase Github/rapid_http/rapid_example","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[10:37:13 PM]: <== Launching lib/main.dart on M2012K11AG in debug mode...
+[10:37:17 PM]: <== [{"event":"app.progress","params":{"appId":"6cacd508-09b4-4628-bee1-4abae87b2939","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[10:37:34 PM]: Process /Users/macbookshop/Documents/development/flutter/bin/flutter terminated! 0, null
